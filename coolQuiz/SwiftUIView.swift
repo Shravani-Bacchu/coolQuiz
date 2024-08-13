@@ -6,7 +6,6 @@
 //
 
 import SwiftUI
-
 struct SwiftUIView: View {
     var body: some View {
         NavigationStack{
@@ -20,14 +19,11 @@ struct SwiftUIView: View {
                 NavigationLink(destination: Fantasy()) {
                     Text("Fantasy")
                         .foregroundColor(.teal)
-                        
-                    
                 }
                 NavigationLink(destination: Romance()) {
                     Text("Romance")
                         .foregroundColor(.teal)
                 }
-                
             }
         }
             }

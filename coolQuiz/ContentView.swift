@@ -9,18 +9,19 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-                NavigationStack {
+        NavigationStack {
             Text("Welcome to this cool quiz!")
                 .foregroundColor(Color.purple)
             NavigationLink(destination: SwiftUIView()) {
                 Text("Click Here!")
                     .foregroundColor(Color.purple)
             }
-
+            
         }
     }
 }
-
 #Preview {
     ContentView()
 }
+//comment
+// :)
